@@ -14,7 +14,7 @@ pipeline {
 
   stages {
 
-    stage(‘Cloning Git’) {
+    stage(‘Cloning_Git’) {
 
       steps {
 
@@ -24,7 +24,7 @@ pipeline {
 
     }
 
-    stage(‘Building image’) {
+    stage(‘Building_Image’) {
 
       steps{
 
@@ -38,7 +38,7 @@ pipeline {
 
     }
 
-    stage(‘Deploy Image’) {
+    stage(‘Deploy_Image’) {
 
       steps{
 
