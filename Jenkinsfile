@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git ‘https://github.com/SimplilearnDevOpsOfficial/DockerizeJenkins.git '
+        git([url: ‘https://github.com/SimplilearnDevOpsOfficial/DockerizeJenkins.git'])
 
       }
 
